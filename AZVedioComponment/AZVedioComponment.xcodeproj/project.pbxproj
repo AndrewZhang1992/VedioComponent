@@ -15,6 +15,7 @@
 		490C32FC1EED46C00018EB8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490C32FA1EED46C00018EB8A /* LaunchScreen.storyboard */; };
 		490C33071EED46C00018EB8A /* AZVedioComponmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C33061EED46C00018EB8A /* AZVedioComponmentTests.m */; };
 		490C33121EED46C00018EB8A /* AZVedioComponmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C33111EED46C00018EB8A /* AZVedioComponmentUITests.m */; };
+		490C33221EED48350018EB8A /* AZUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C33211EED48350018EB8A /* AZUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		490C330D1EED46C00018EB8A /* AZVedioComponmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZVedioComponmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		490C33111EED46C00018EB8A /* AZVedioComponmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZVedioComponmentUITests.m; sourceTree = "<group>"; };
 		490C33131EED46C00018EB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490C33201EED48350018EB8A /* AZUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZUser.h; sourceTree = "<group>"; };
+		490C33211EED48350018EB8A /* AZUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		490C32EB1EED46C00018EB8A /* AZVedioComponment */ = {
 			isa = PBXGroup;
 			children = (
+				490C331F1EED48110018EB8A /* Classes */,
 				490C32EF1EED46C00018EB8A /* AppDelegate.h */,
 				490C32F01EED46C00018EB8A /* AppDelegate.m */,
 				490C32F21EED46C00018EB8A /* ViewController.h */,
@@ -138,6 +142,15 @@
 				490C33131EED46C00018EB8A /* Info.plist */,
 			);
 			path = AZVedioComponmentUITests;
+			sourceTree = "<group>";
+		};
+		490C331F1EED48110018EB8A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				490C33201EED48350018EB8A /* AZUser.h */,
+				490C33211EED48350018EB8A /* AZUser.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				490C32F41EED46C00018EB8A /* ViewController.m in Sources */,
+				490C33221EED48350018EB8A /* AZUser.m in Sources */,
 				490C32F11EED46C00018EB8A /* AppDelegate.m in Sources */,
 				490C32EE1EED46C00018EB8A /* main.m in Sources */,
 			);
